@@ -10,7 +10,13 @@ An external ADC is also useful as they do a better job of sampling the input.
 
 A screen is also present in this sketch in order to replace the GUI's of a drum brain module. Many screens should be compatible. 
 
-This microcontroller (Tested with leonardo and ESP32) code is available in the
+The velocity of each hit will be registered and fired on the specified MIDI note and channel. 
+
+I have included all libraries as I have modified some of the arduino libraries to be more flexible for my purposes.
+
+This project is currently managed using PlatformIO.
+
+
 ```
 =============================================================
 Complete Single Channel Signal Processing (TL3472IP - 8-pin DIP):
